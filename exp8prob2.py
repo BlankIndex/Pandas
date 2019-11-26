@@ -10,7 +10,7 @@ import pandas as panda
 cars = panda.read_csv('cars.csv')
 
 #a
-x=cars.iloc[1:10:2]
+x = cars.iloc[:5,[1,3,5,7,9,11]]
 print(x,"\n")
 
 #b
